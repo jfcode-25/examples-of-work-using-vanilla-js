@@ -1,2 +1,2 @@
-# examples-of-work-using-vanilla-js
+# examples-vanilla-js
 JavaScript Examples
