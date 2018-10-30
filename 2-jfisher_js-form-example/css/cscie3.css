@@ -1,0 +1,92 @@
+/*Partially authored by: Julie Fisher for CSCIE3*/
+/* cscie3.css */
+
+body {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 14px;
+	line-height: 1.4285;
+	color: #333;
+}
+
+p {
+    font-size: 100%;
+
+}
+
+.bold {
+    font-size: 100%;
+    font-weight: bold;
+
+}
+.container {
+	width: 80%;
+	margin: auto;
+}
+
+h4 {
+	border-top: 1px solid black;
+	padding-top: 1em;
+	width: 95%;
+}
+
+.hint {
+	display:none;
+	color:red;
+}
+
+.button {
+    text-indent:0;
+    border:1px solid #eda933;
+    display:inline-block;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:15px;
+    font-weight:bold;
+    font-style:normal;
+    height:65px;
+    line-height:65px;
+    padding: .5 em;
+    text-decoration:none;
+    text-align:center;
+    text-shadow:1px 1px 0px #cd8a15;
+    background-color:#f6b33d;
+}
+
+
+.hidden{
+    display:none;
+    width: 25em;
+}
+
+#apparelForm{
+    margin-top: 1em;
+    padding: 1em;
+    background-color: #B0DAF1;
+    box-shadow: 2px 2px 5px #888888;
+}
+
+#upholsteryForm{
+    margin-top: 1em;
+    padding: 1em;
+    background-color: #DEDCC2;
+    box-shadow: 2px 2px 5px #888888;
+}
+
+.invalid { 
+    border-color: red;
+    background-color: #FAE3DE; 
+}
+  
+
+#error { 
+    color: red; 
+}
+
+.match { 
+    border-color: green; 
+}
+
+#bio, #firstSelect, #secondSelect {
+    border: 2px solid #707BA7;
+    box-shadow: 2px 2px 5px #888888;
+}
