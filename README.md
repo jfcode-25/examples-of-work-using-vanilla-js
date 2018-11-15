@@ -1,6 +1,5 @@
 # examples-vanilla-js
-Julie Fisher
-Examples showing use of JavaScript
+Julie Fisher - Examples showing use of JavaScript
 
 //1-jfisher_js-arrays-and-more-examples:
 Shows use of JavaScript in mathmatical calculations, string handling to manipulate text, arrays, conditionals, loops and functions. 
