@@ -98,59 +98,8 @@
       <p><textarea id="myWordsToCount" rows="5" cols="60"></textarea><br>
       </p>
       The wordcount is: <span id="wordcount"></span><br>
-      <h4>6. Image processing (array handling) </h4>
-      <p>The image below (labeled "Original") appears inside an HTML canvas element.&nbsp; Unlike an image displayed normally in
-        the browser using the IMG tag, the image data that appears in a canvas
-        element is available to Javascript as a "bitmap". </p>
-      <p>The bitmap data is an Array that maps four numbers to each pixel in the
-        image: r, g, b, a, where r, g, b are integer values from 0 to 255 which
-        describe red, green, and blue respectively; and a, which is an 'alpha'
-        value between 0 and 255 in which 0 is transparent and 255 is completely
-        opaque. Since there are four array elements for each pixel, the total
-        array will contain 4 times as many elements as there are pixels in the image. </p>
-      <p>The first pixel's red data is at data[0], the second pixel's red data
-        at data[4], etc. </p>
-      <p>Write additional code inside the function that will
-        modify the image data to create four new versions, as described below
-        and in the <span style="font-family: monospace;">js/hw2ArrayImageProcessing.js</span>
-        file.&nbsp; </p>
-      <p>This problem is about arrays and looping and counting, not about fancy graphics-processing mathematics. Traverse the data array. This is a nine-pixel approximation of the French flag, as a bitmap.
-      There are nine pixels, each with four array elements to describe their appearance, for 36 data elements in all.
-</p>
-      <p><strong>Important Note: To do this exercise using a local file
-          system (with no Web server involved), <u>you will need to use Firefox as
-          your browser.</u> Chrome will display an error due to security
-          constraints.</strong> </p>
-      <table style="width: 100%" border="1">
-        <tbody>
-          <tr>
-            <td>Original</td>
-            <td>BLUE-only version</td>
-            <td>Reverse-color version</td>
-            <td>semi-transparent version</td>
-            <td>add two images version</td>
-          </tr>
-          <tr>
-            <td><canvas id="originalCanvas"></canvas><br>
-            </td>
-            <td><canvas id="blueCanvas"></canvas><br>
-            </td>
-            <td><canvas id="reverseCanvas"></canvas><br>
-            </td>
-            <td><canvas id="transparentCanvas"></canvas><br>
-            </td>
-            <td><canvas id="compositeCanvas"></canvas><canvas id="compositeNewImageCanvas"
-                style="display:none;"></canvas><br>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-      <p><br>
-      </p>
-      <p>If you've done this correctly, the table above will look something like this screengrab:
-      <img id="imgProc" src="img/project2A_ImageProcessingOutput.png" width="75%"/> </p>
-      <p><br>
-      </p>
+
+
     </div>
     <script type="text/javascript" src="js/hw2ConvertTemp.js"></script>
     <script type="text/javascript" src="js/hw2PutAnX.js"></script>
