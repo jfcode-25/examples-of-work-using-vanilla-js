@@ -3,7 +3,6 @@ Julie Fisher - Examples showing use of JavaScript
 
 //1-jfisher_js-arrays-and-more-examples:
 Shows use of JavaScript in mathmatical calculations, string handling to manipulate text, arrays, conditionals, loops and functions. 
-Also shows an image processing example that must be viewed in Firefox.
 
 https://htmlpreview.github.io/?https://github.com/jfcode-25/examples-vanilla-js/blob/master/1-jfisher_js-arrays-and-more-examples/arrays-and-more_js-examples.html
 
