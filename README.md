@@ -12,10 +12,7 @@ Shows form creation in HTML and validation with JavaScript.
 https://htmlpreview.github.io/?https://github.com/jfcode-25/examples-vanilla-js/blob/master/2-jfisher_js-form-example/form_js-example.html
 
 
-//3-jfisher_js-dom-example:
-Shows text manipulation with JavaScript to split a block of text into individual SPANS similar to what might be used alongside a video player on a web page. Click "Transform the Transcript" twice.
 
-https://htmlpreview.github.io/?https://github.com/jfcode-25/examples-vanilla-js/blob/master/3-jfisher_js-dom-example/dom_js-example.html
 
 
 
